@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Index"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="500px"
+            android:layout_height="200px"
+            android:background="@drawable/logo"
+            android:layout_marginTop="290px"
+            android:layout_marginLeft="280px"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="25px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bem Vindo(a) ao "
+                android:layout_marginLeft="225px"
+                android:textSize="18sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coleta Fácil"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faça Login ou crie uma conta "
+            android:layout_marginLeft="225px"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="para começar "
+            android:layout_marginLeft="390px"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Já possui uma conta?"
+            android:layout_marginLeft="300px"
+            android:layout_marginTop="50dp"
+            />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:text="Entrar"
+            android:textAllCaps="false"
+            android:layout_marginLeft="300px"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seu primeiro acesso?"
+            android:layout_marginLeft="300px"
+            android:layout_marginTop="20dp"
+            />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="50dp"
+            android:text="Crie sua conta"
+            android:textAllCaps="false"
+            android:layout_marginLeft="300px"
+            />
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

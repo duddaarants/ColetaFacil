@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+         <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Olá,"
+             android:textStyle="bold"
+        android:textSize="24dp"
+             android:layout_marginTop="64dp"
+             android:layout_marginLeft="33dp"
+         />
+
+        <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Entre para continuar!"
+             android:textStyle="normal"
+        android:textSize="24dp"
+             android:layout_marginLeft="33dp"
+         />
+
+        <EditText
+            android:layout_width="239dp"
+            android:layout_height="40dp"
+            android:hint="E-mail"
+            android:paddingStart="10dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="66dp"
+            android:background="@drawable/button_basic"
+            />
+
+        <EditText
+            android:layout_width="239dp"
+            android:layout_height="40dp"
+            android:paddingStart="10dp"
+            android:hint="Senha"
+            android:layout_marginTop="47dp"
+            android:layout_marginLeft="66dp"
+            android:background="@drawable/button_basic"
+            android:drawableEnd="@drawable/visivel"
+            android:paddingEnd="10dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Esqueceu a Senha?"
+            android:textAllCaps="false"
+            android:background="@color/transparent"
+            android:layout_marginLeft="141dp"
+            android:paddingBottom="15dp"
+            android:textColor="#999999"
+            />
+
+        <Button
+            android:layout_width="160dp"
+            android:layout_height="45dp"
+            android:hint="Entrar"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="106dp"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ou"
+            android:layout_marginTop="45dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="173dp"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entre com"
+            android:textStyle="bold"
+            android:layout_marginLeft="145dp"
+            android:textSize="18dp"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:drawableBottom="@drawable/img"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
