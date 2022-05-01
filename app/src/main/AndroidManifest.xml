@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ColetaFacil">
         <activity
+            android:name=".RecuperarSenha"
+            android:exported="false" />
+        <activity
+            android:name=".EsqueceuSenha"
+            android:exported="false" />
+        <activity
             android:name=".Login"
             android:exported="false" />
         <activity

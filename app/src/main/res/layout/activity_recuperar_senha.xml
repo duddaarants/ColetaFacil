@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecuperarSenha">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail enviado"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="130dp"
+        android:textColor="#999999"
+        />
+
+    <ImageView
+        android:layout_width="129dp"
+        android:layout_height="129dp"
+        android:background="@drawable/img_2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="14dp"
+        />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Por favor, verifique sua caixa"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#999999"
+            android:layout_marginTop="32dp"
+            />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="de e-mail e clique no link para"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#999999"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="redefinir sua senha"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#999999"
+        />
+
+            <Button
+                android:layout_width="223dp"
+                android:layout_height="45dp"
+                android:hint="Entrar"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="21dp"
+                android:textColor="#FFFFFF"
+                />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Não recebeu nenhum e-mail?"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:textColor="#999999"
+            android:layout_marginTop="62dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <Button
+            android:layout_width="94dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="62dp"
+            android:background="@color/transparent"
+            android:hint="Aperte aqui"
+            android:textColorHint="@color/green"
+            android:textSize="13dp"
+            android:textStyle="bold"
+            android:paddingLeft="-3dp"
+            android:layout_marginLeft="6dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

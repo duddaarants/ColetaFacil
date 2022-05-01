@@ -5,9 +5,11 @@
       <map>
         <entry key="..\:/Users/Meninas/AndroidStudioProjects/ColetaFacil/app/src/main/res/drawable/button_basic.xml" value="0.153" />
         <entry key="..\:/Users/Meninas/AndroidStudioProjects/ColetaFacil/app/src/main/res/drawable/transparent.xml" value="0.153" />
+        <entry key="..\:/Users/Meninas/AndroidStudioProjects/ColetaFacil/app/src/main/res/layout/activity_esqueceu_senha.xml" value="0.25" />
         <entry key="..\:/Users/Meninas/AndroidStudioProjects/ColetaFacil/app/src/main/res/layout/activity_index.xml" value="0.2" />
         <entry key="..\:/Users/Meninas/AndroidStudioProjects/ColetaFacil/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/Meninas/AndroidStudioProjects/ColetaFacil/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Meninas/AndroidStudioProjects/ColetaFacil/app/src/main/res/layout/activity_recuperar_senha.xml" value="0.22" />
         <entry key="..\:/Users/Meninas/AndroidStudioProjects/ColetaFacil/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.153" />
       </map>
     </option>
